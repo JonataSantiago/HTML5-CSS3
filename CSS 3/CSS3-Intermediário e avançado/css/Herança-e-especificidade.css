@@ -1,0 +1,32 @@
+/*
+************** Herança**************
+A palavra herança rapidamente remete ao paradigma de Orientação a Objetos. 
+Caso você acompanhe discussões sobre front-end, já deve saber que o termo “orientação a objetos” não é bem visto tratando-se de CSS.
+Assim como você herda métodos e atributos de objetos, no CSS você herda as regras de um elemento pai.
+É importante lembrar que nem todas as propriedades serão herdadas por elementos filho. 
+Geralmente as propriedades que se referem ao box-model (height, width, margin, padding) não aceitam herança. 
+*/
+
+
+body{
+	color: red;
+}
+
+/*
+*********** Especificidade ****************
+A especificação é a maneira de como os navegadores definem quais valores de propriedades são os mais relevantes para o elemento a ser utilizado. 
+A especificação é baseada apenas nas regras impostas na composição de diferentes tipos de seletores. 
+
+
+Ordem crescente de especificação
+
+ A seguinte lista de seletores está incluida na especificação:
+
+    Seletores Universais
+    Tipo de Seletores
+    Classes seletoras
+    Atributos Seletores
+    Pseudo-classes
+    Seletores ID
+    Estilo Inline
+*/

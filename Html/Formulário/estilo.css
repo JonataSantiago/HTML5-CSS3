@@ -1,0 +1,63 @@
+#master form{
+	border: 0px solid #00F;
+	font-family: Arial;
+	font-size:17px;
+}
+#master form ul{
+	list-style-type: none;
+	margin:0px;
+	padding:7px;
+	border: 0px solid #0FF;		
+}
+#master form ul li{
+	margin:0px;
+	padding:7px 0px 7px 0px;
+	border: 0px solid #F0F;
+	height: 35px;
+	line-height: 35px;
+}
+#master form ul li label{
+	border: 0px solid #F0F;
+	float:left;
+	width: 100px;
+	margin-left:10px;
+}
+
+#master form ul li input[type=text], select
+{
+	border-radius:5px;
+	padding:7px;
+	font-size:17px;
+	border: 2px solid #444;
+	color: blue;
+	outline:none;/* remove seleção da caixa automática do  browser*/
+}
+
+#master form ul li input[type=text]:hover, select:hover
+{
+	border: 2px solid green;	
+}
+
+#master form ul li input[type=text]:focus
+{
+	border: 2px solid #F0F;
+}
+
+#master fieldset{
+	border: none;
+
+}
+
+h1{
+	text-align: center;
+}
+
+#master form ul li input[type=checkbox]
+{
+	border-radius:5px;
+	padding:7px;
+	font-size:17px;
+	border: 2px solid #444;
+	color: blue;
+	outline:none;
+}	
