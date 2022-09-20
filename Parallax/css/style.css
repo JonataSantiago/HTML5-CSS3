@@ -1,0 +1,96 @@
+/*** Formatações de estrura ***/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    font-family: "Lato", sans-serif;
+    font-size: 1em;
+    color: #777;
+    height: 100%;      
+}
+
+/*** Contúdo ***/
+.conteudo {
+    color: #777;
+    background-color: #fff;
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+h3 , h4 {
+    text-transform: uppercase;
+    color:  #111;
+    text-align: center;
+}
+
+h4 {
+    color: rgb(100, 98, 98);
+}
+
+h5 , a {
+    text-decoration: none;
+    color:  #111;
+}
+
+h5 a:hover {
+    color: #777;    
+}
+
+p{
+    margin: 20px 0;
+}
+
+ul li{
+    margin-left: 30px;
+}
+
+/*** Efeito Parallax ***/
+
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5 {
+    position: relative;
+    height: 100%;  
+    opacity: 0.7;  
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;      
+}
+
+.caixa1 {
+    background-image: url(../imagens/imagem1.jpg);     
+}
+
+.caixa2 {
+    background-image: url(../imagens/imagem2.jpg);    
+}
+
+.caixa3 {
+    background-image: url(../imagens/imagem3.jpg);
+}
+
+.caixa4 {
+    background-image: url(../imagens/imagem4.jpg);
+}
+
+.caixa5 {
+    background-image: url(../imagens/imagem6.jpg);
+}
+
+.conteudo-titulo {
+    position: absolute;
+    left: 0;    
+    top: 45%;
+    width: 100%;    
+    text-align: center;
+}
+
+.conteudo-titulo span.titulo {
+    color: #fff;
+    background-color: #111;
+    padding: 5px 15px;
+    font-size: 1.5em;
+    letter-spacing: 5px;
+}
